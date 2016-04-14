@@ -35,7 +35,7 @@ Notes:
 ------------------------------------------------------------------------------
 1) The program expects that each XML tag starts from new line.
 
-1) The program was built using gcc 4.6.3 .
+2) The program was built using gcc 4.6.3 .
 
-2) The program was tested in Ubuntu 12.04 .
+3) The program was tested in Ubuntu 12.04 .
 
