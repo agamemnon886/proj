@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------
+How to run:
+------------------------------------------------------------------------------
+1) Type the following command to run 'script.sh':
+
+$ ./script.sh
+192.168.1.2    == 255.255.255.0
+127.0.0.1      == 255.0.0.0
+10.0.3.1       == 255.255.255.0
+
+------------------------------------------------------------------------------
+Notes:
+------------------------------------------------------------------------------
+1) In some systems 'ifconfig' may require root permissions. In this case the
+   script shall be run under 'root'.
+
+2) The output of the 'script.sh' depends on network settings.
+
+3) Script was tested in Ubuntu 12.04.
+
