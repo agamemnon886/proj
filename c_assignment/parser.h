@@ -1,4 +1,5 @@
 #if !defined(parser_h)
+#define parser_h
 
 /* Macro definitions */
 #define END_SEQ "]]>]]>"
