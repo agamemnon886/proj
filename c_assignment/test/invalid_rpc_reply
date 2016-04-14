@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply message-id="344" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"
+  <get-config>
+   <source>
+     <running/>
+   </source>
+   <filter type="subtree">
+  <configuration>
+    <protocols/>
+  </configuration>
+   </filter>
+  </get-config>
+</rpc>
+]]>]]>

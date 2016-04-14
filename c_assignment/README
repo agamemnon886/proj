@@ -1,0 +1,41 @@
+------------------------------------------------------------------------------
+How to build:
+------------------------------------------------------------------------------
+1) Type the following command to build 'parse_rpc':
+
+$ make all
+
+2) Type following command to remove 'parse_rpc' and object files:
+
+$ make clean
+
+------------------------------------------------------------------------------
+How to run unit tests:
+------------------------------------------------------------------------------
+1) Type the following command to rebuild 'parse_rpc':
+
+$ make clean all
+
+2) Type the following commands and check the output:
+
+$ cat test/invalid_rpc | ./parse_rpc
+It is not <rpc> element
+
+$ cat test/invalid_rpc_reply | ./parse_rpc
+Invalid <rpc> element
+
+$ cat test/valid_rpc | ./parse_rpc
+Done
+
+$ cat test/valid_rpc_reply | ./parse_rpc
+Done
+
+------------------------------------------------------------------------------
+Notes:
+------------------------------------------------------------------------------
+1) The program expects that each XML tag starts from new line.
+
+1) The program was built using gcc 4.6.3 .
+
+2) The program was tested in Ubuntu 12.04 .
+
